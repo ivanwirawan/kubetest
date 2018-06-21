@@ -9,7 +9,5 @@ spec:
     spec:
       containers:
       - name: pi
-        image: perl
-        command: ["perl"]
-        args: ["-Mbignum=bpi", "-wle", "print bpi(2000)"]      
+        image: gcr.io/test-ivan:1.1.0
       restartPolicy: Never
